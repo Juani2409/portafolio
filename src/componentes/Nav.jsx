@@ -3,7 +3,7 @@ import "./Nav.css"
 
 function Nav() {
   return (
-<nav class="navbar navbar-expand-md navbar-light bg-light">
+<nav class="bg-dark navbar navbar-expand-md navbar-light bg-light" >
     <div class="container">
       <span id='nombre' class="navbar-brand" href="#">JIG Juan Ignacio Grodz</span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

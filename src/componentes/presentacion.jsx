@@ -4,7 +4,8 @@ function Presentacion() {
   return (
     <div
       style={{
-        background: "linear-gradient(to bottom right, #ffffff, #000000)",
+      
+        background: "linear-gradient(to bottom right, #1e276c, #000000)",
         height: "100vh",
         display: "flex",
         alignItems: "center",

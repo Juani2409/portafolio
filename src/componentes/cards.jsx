@@ -3,55 +3,52 @@ import React from "react";
 function Card() {
   return (
 
-    <div class="container py-5">
-      <section id="trabajos">
-        <h2>Mis Trabajos</h2>
-        <div class="row">
-
-          <div class="col-md-6 col-lg-3 mb-4">
-            <div class="card">
-              <img src="ruta-de-imagen-1.jpg" class="card-img-top" alt="Trabajo 1" />
-              <div class="card-body">
-                <h5 class="card-title">Trabajo 1</h5>
-                <p class="card-text">Descripción del trabajo 1.</p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-lg-3 mb-4">
-            <div class="card">
-              <img src="ruta-de-imagen-2.jpg" class="card-img-top" alt="Trabajo 2" />
-              <div class="card-body">
-                <h5 class="card-title">Trabajo 2</h5>
-                <p class="card-text">Descripción del trabajo 2.</p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-lg-3 mb-4">
-            <div class="card">
-              <img src="ruta-de-imagen-3.jpg" class="card-img-top" alt="Trabajo 3" />
-              <div class="card-body">
-                <h5 class="card-title">Trabajo 3</h5>
-                <p class="card-text">Descripción del trabajo 3.</p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-lg-3 mb-4">
-            <div class="card">
-              <img src="ruta-de-imagen-4.jpg" class="card-img-top" alt="Trabajo 4" />
-              <div class="card-body">
-                <h5 class="card-title">Trabajo 4</h5>
-                <p class="card-text">Descripción del trabajo 4.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div class="bg-dark container-fluid py-5" >
+     
+        <h1 style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center"
+      }}>Mis Trabajos</h1>
+       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Etiqueta de la primera diapositiva</h5>
+        <p>Algún contenido placeholder representativo para la primera diapositiva.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Etiqueta de la segunda diapositiva</h5>
+        <p>Algún contenido placeholder representativo para la segunda diapositiva.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../logos/HTML-CSS.png" class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Etiqueta de la tercera diapositiva</h5>
+        <p>Algún contenido placeholder representativo para la tercera diapositiva.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+      
     </div>
   )
 
