@@ -1,0 +1,20 @@
+#nombre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    animation: neon 1.5s ease-in-out infinite;
+  }
+  
+  @keyframes neon {
+    0%,39%, 59%, 100% {
+      color: black;
+      text-shadow: 
+        none;
+    }
+    40%, 60% {
+      color: red;
+      text-shadow: 
+        0 0 12px rgb(255, 81, 0),
+        0 0 24px red,
+        0 0 34px red;
+    }
+  }

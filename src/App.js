@@ -3,14 +3,19 @@ import './App.css';
 import Footer from './componentes/footer';
 import Card from './componentes/cards';
 import Presentacion from './componentes/presentacion';
+import Skills from './componentes/skills';
+
+
+
 function App() {
   return (
     <div className="App">
-     <div className="container" style={{ padding: '0px', margin: '0px', maxWidth: '100%' }}>
+      <div className="container" style={{ padding: '0px', margin: '0px', maxWidth: '100%' }}>
         <Nav />
-<Presentacion />
-       <Card />
-       <Footer />
+        <Presentacion />
+        <Skills />
+        <Card />
+        <Footer />
       </div>
     </div>
   );
